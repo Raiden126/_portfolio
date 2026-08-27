@@ -8,10 +8,8 @@ import {
   FileText,
   Briefcase,
   GraduationCap,
-  Award,
   Download,
 } from "lucide-react";
-import LazyImage from "./LazyImage";
 import { Links } from "@/data/links";
 import SpotlightCard from "./SpotlightCard";
 
@@ -75,10 +73,7 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-                Software engineering student with a passion for creating
-                innovative solutions. Specializing in full-stack development, I
-                combine technical expertise with creative problem-solving to
-                build user-centric applications.
+                Software developer and ML & Data Enthusiast with a passion for creating innovative web and cloud solutions. Specializing in full-stack development, API integration, and machine learning deployment, I combine technical expertise with creative problem-solving to build scalable, high-performance applications.
               </p>
             </motion.div>
 
@@ -97,15 +92,15 @@ const AboutSection = () => {
                       Education
                     </h3>
                     <div className="space-y-2">
-                      <p className="font-medium">BSc in Software Engineering</p>
+                      <p className="font-medium">BSc in Computer Science</p>
                       <p className="text-sm text-muted-foreground">
-                        SLIIT (Sri Lanka Institute of Information Technology)
+                        Assam University, Silchar
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        2022 - Present
+                        Completed: 08/2023
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
+                        CGPA: 8.3
                       </p>
                     </div>
                   </CardContent>
@@ -127,22 +122,22 @@ const AboutSection = () => {
                     <div className="space-y-4">
                       <div>
                         <p className="font-medium">
-                          Full Stack Developer Intern
+                          Software Developer
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Twist Digital
+                          Dotsquares Technologies India
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Since March 2025
+                          06/2024 - Present
                         </p>
                       </div>
                       <div>
-                        <p className="font-medium">Graphic Designer</p>
+                        <p className="font-medium">Full Stack Developer, Apprentice</p>
                         <p className="text-sm text-muted-foreground">
-                          SLIIT Media Unit
+                          CDAC
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Freelance
+                          05/2021 - 05/2024
                         </p>
                       </div>
                     </div>
@@ -165,26 +160,31 @@ const AboutSection = () => {
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
             >
-              <Avatar className="w-40 h-40 border-4 border-primary/20">
+              <Avatar className="w-40 h-40 border-4 border-primary/20 shadow-lg overflow-hidden">
                 <AvatarImage
                   src="/imgs/me.png"
-                  alt="Aathif Zahir"
+                  alt="Guddu Shakar Paul"
                   loading="lazy"
+                  className="w-full h-full object-cover object-center"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback className="text-xl font-semibold">
+                  GS
+                </AvatarFallback>
               </Avatar>
-              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                3.41 GPA
+
+              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium shadow-md">
+                8.3 CGPA
               </div>
             </motion.div>
+
 
             <motion.div
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Aathif Zahir</h3>
+              <h3 className="text-2xl font-bold">Guddu Shakar Paul</h3>
               <p className="text-muted-foreground">
-                Software Engineering Student
+                Software Developer
               </p>
             </motion.div>
 
@@ -196,10 +196,10 @@ const AboutSection = () => {
                 React
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                Node
+                NestJS
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                UI/UX
+                Machine Learning
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
                 Full Stack
@@ -212,7 +212,7 @@ const AboutSection = () => {
               whileTap={{ scale: 0.98 }}
             >
               <Button className="gap-2" asChild onClick={handledownload}>
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl} download="Guddu_Shakar_Paul_CV.pdf">
                   <Download className="w-4 h-4" />
                   Download Resume
                 </a>

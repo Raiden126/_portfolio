@@ -68,7 +68,7 @@ const DeveloperBoard = () => {
             >
               <span className="text-purple-600">name</span>
               <span className="text-gray-500">:</span>{" "}
-              <span className="text-green-600">'Aathif Zahir'</span>
+              <span className="text-green-600">'Guddu Shakar Paul'</span>
               <span className="text-gray-500">,</span>
             </motion.div>
 

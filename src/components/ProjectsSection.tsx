@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { ChevronUp, Code, ExternalLink, Github } from "lucide-react";
 import { projects } from "@/data/projects";
 import LazyImage from "@/components/LazyImage"; // Import our LazyImage component
-import ProjectImg from "@/components/ProjectImg";
 import SpotlightCard from "@/components/SpotlightCard";
 
 const ProjectsSection = () => {

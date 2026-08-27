@@ -182,13 +182,7 @@ const AchievementsSection = () => {
                 <SpotlightCard className="min-w-[350px] max-w-[350px] bg-card p-6 rounded-lg shadow-sm border-[1px] border-white/10 backdrop-blur-sm select-none m-0.5">
                   <div className="flex items-center mb-4">
                     <div
-                      className={`p-2 rounded-full mr-3 ${
-                        achievement.type === "competition"
-                          ? "bg-yellow-100/80 text-yellow-600 dark:bg-yellow-950 dark:text-yellow-300"
-                          : achievement.type === "academic"
-                          ? "bg-blue-100/80 text-blue-600 dark:bg-blue-950 dark:text-blue-300"
-                          : "bg-green-100/80 text-green-600 dark:bg-green-950 dark:text-green-300"
-                      }`}
+                      className={`p-2 rounded-full mr-3 bg-green-100/80 text-green-600 dark:bg-green-950 dark:text-green-300`}
                     >
                       <achievement.icon className="h-5 w-5" />
                     </div>
@@ -206,13 +200,7 @@ const AchievementsSection = () => {
                   </p>
                   <div className="flex items-center justify-between">
                     <span
-                      className={`text-xs px-2 py-1 rounded-full ${
-                        achievement.type === "competition"
-                          ? "bg-yellow-100/80 text-yellow-800 dark:bg-yellow-950 dark:text-yellow-300"
-                          : achievement.type === "academic"
-                          ? "bg-blue-100/80 text-blue-800 dark:bg-blue-950 dark:text-blue-300"
-                          : "bg-green-100/80 text-green-800 dark:bg-green-950 dark:text-green-300"
-                      }`}
+                      className={`text-xs px-2 py-1 rounded-full bg-green-100/80 text-green-800 dark:bg-green-950 dark:text-green-300`}
                     >
                       {achievement.type.charAt(0).toUpperCase() +
                         achievement.type.slice(1)}

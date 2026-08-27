@@ -1,10 +1,9 @@
-
-import { Trophy, Star, Award } from "lucide-react";
+import { Award } from "lucide-react";
 import { LucideIcon } from "lucide-react";
 
 export type Achievement = {
   title: string;
-  type: "competition" | "academic" | "certification";
+  type: "certification";
   year: string;
   description: string;
   icon: LucideIcon;
@@ -13,79 +12,51 @@ export type Achievement = {
 
 export const achievements: Achievement[] = [
   {
-    title: "2nd Place - Algothon Codefest",
-    type: "competition",
-    year: "2024",
-    description: "Secured second place in the competitive programming event.",
-    icon: Trophy,
-  },
-  {
-    title: "3rd Place - INTELLECT 1.0 Hackathon",
-    type: "competition", 
-    year: "2024",
-    description: "Won third place for developing an innovative solution during the 24-hour hackathon.",
-    icon: Trophy,
-  },
-  {
-    title: "Dean's List",
-    type: "academic",
-    year: "2023",
-    description: "Recognized for academic excellence with placement on the Dean's List.",
-    icon: Star,
-  },
-  {
-    title: "ClickUp Novice Certificate",
+    title: "Schema Patterns And AntiPatterns - MongoDB",
     type: "certification",
-    year: "2025",
-    description: "Completed ClickUp Novice certification demonstrating proficiency in project management tools.",
+    year: "",
+    description: "Certification on MongoDB schema patterns.",
     icon: Award,
-    link: "https://verify.skilljar.com/c/wfoiw7jffkho",
+    link: "https://github.com/Raiden126/certificates/blob/main/Mongodb_schema_patterns_and_antiPatterns.jpg",
   },
   {
-    title: "ChatGPT Prompt Engineering Basics",
+    title: "Relational To Document Model - MongoDB",
     type: "certification",
-    year: "2025",
-    description: "Specialized in AI prompt engineering, productivity improvement, and AI-driven content creation.",
+    year: "",
+    description: "Certification on migrating from relational to document databases.",
     icon: Award,
-    link: "https://www.udemy.com/certificate/UC-23a7ee26-0aaf-468f-b98a-25d94c32623b/",
+    link: "https://github.com/Raiden126/certificates/blob/main/Mongodb_relational_to_document_model.jpg",
   },
   {
-    title: "Software Engineer Intern - HackerRank",
+    title: "Fundamentals of Data Transformation - MongoDB",
     type: "certification",
-    year: "2025",
-    description: "Demonstrated proficiency in MySQL, problem solving, and code refactoring.",
+    year: "",
+    description: "Certification on data transformation techniques.",
     icon: Award,
-    link: "https://www.hackerrank.com/certificates/8f2f3cc718d4",
+    link: "https://github.com/Raiden126/certificates/blob/main/Mongodb_fundamentals_of_data_transformation.jpg",
   },
   {
-    title: "Explore Core Data Concepts - Microsoft",
+    title: "Next Js: The Complete Developer's Guide - Udemy",
     type: "certification",
-    year: "2024",
-    description: "Earned Microsoft certification in data structures and data analysis fundamentals.",
+    year: "",
+    description: "Comprehensive Next.js certification.",
     icon: Award,
-    link: "https://learn.microsoft.com/en-us/users/aathifzahir-4391/achievements/j9fvfzgt",
+    link: "https://github.com/Raiden126/certificates/blob/main/Udemy_nextjs.jpg",
   },
   {
-    title: "Python for Beginners - University of Moratuwa",
+    title: "The Modern Javascript Bootcamp Course - Udemy",
     type: "certification",
-    year: "2024",
-    description: "Comprehensive Python certification covering OOP, data structures, algorithms, and debugging.",
+    year: "",
+    description: "Modern JavaScript concepts and bootcamp.",
     icon: Award,
-    link: "https://open.uom.lk/verify",
+    link: "https://github.com/Raiden126/certificates/blob/main/Udemy_js.jpg",
   },
   {
-    title: "SQL (Basic) - HackerRank",
+    title: "Helsinki Full Stack Open - University Of Helsinki",
     type: "certification",
-    year: "2024",
-    description: "Earned HackerRank SQL certification demonstrating database management skills.",
+    year: "",
+    description: "Deep dive into React, Redux, Node.js, MongoDB, GraphQL and TypeScript.",
     icon: Award,
-    link: "https://www.hackerrank.com/certificates/722758e3e085",
-  },
-  {
-    title: "SLIITXtreme 3.0 Participant",
-    type: "competition",
-    year: "2024",
-    description: "Participated in competitive programming hackathon focusing on problem-solving skills.",
-    icon: Trophy,
-  },
+    link: "https://github.com/Raiden126/certificates/blob/main/Helsinki_react_fullstack.jpg",
+  }
 ];

@@ -1,5 +1,4 @@
-
-import { Code, Database, Layout, Terminal, Cpu, Palette } from "lucide-react";
+import { Code, Database, Layout, Terminal, Cpu, Palette, Cloud, Shield } from "lucide-react";
 import { LucideIcon } from "lucide-react";
 
 export type SkillCategory = {
@@ -10,33 +9,33 @@ export type SkillCategory = {
 
 export const skillCategories: SkillCategory[] = [
   {
-    name: "Programming Languages",
+    name: "Languages",
     icon: Terminal,
-    skills: ["JavaScript", "Java", "Python", "TypeScript", "HTML/CSS"],
+    skills: ["JavaScript", "TypeScript", "Python", "HTML (PUG)", "CSS (Sass)"],
   },
   {
-    name: "Frontend Development",
+    name: "Frameworks & Libraries",
     icon: Layout,
-    skills: ["React", "React Native", "Next.js", "Tailwind CSS", "Flutter"],
+    skills: ["React.js", "Next.js", "Vue.js", "Nuxt.js", "Node.js", "Express.js", "NestJS", "Tailwind CSS", "Redux"],
   },
   {
-    name: "Backend Development",
+    name: "Backend & APIs",
     icon: Code,
-    skills: ["Node.js", "Express.js", "NestJS", "Spring Boot", "REST APIs"],
+    skills: ["REST APIs", "GraphQL", "WebSocket", "Microservices", "FlaskAPI"],
   },
   {
     name: "Databases",
     icon: Database,
-    skills: ["MongoDB", "MySQL", "Firebase", "PostgreSQL", "Redis"],
+    skills: ["MongoDB (NoSQL)", "MySQL (SQL)", "SQLite", "Redis", "Mongoose", "Sequelize"],
   },
   {
-    name: "Tools & Technologies",
+    name: "Cloud & DevOps",
+    icon: Cloud,
+    skills: ["Docker", "AWS S3", "AWS Elastic Beanstalk", "Heroku", "Vercel", "Netlify", "NGINX"],
+  },
+  {
+    name: "Tools & Others",
     icon: Cpu,
-    skills: ["Git", "Vercel", "Agile/Scrum"],
-  },
-  {
-    name: "Design",
-    icon: Palette,
-    skills: ["Figma", "Adobe AI", "UI/UX Design", "Wireframing", "Prototyping"],
-  },
+    skills: ["Git", "GitHub", "Jira", "Postman", "Stripe", "Supabase", "BullMQ"],
+  }
 ];

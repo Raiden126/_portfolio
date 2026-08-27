@@ -68,14 +68,14 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Aathif{" "}
+            Guddu{" "}
             <motion.span
               className="highlight-text"
               initial={{ backgroundSize: "0% 3px" }}
               animate={{ backgroundSize: "100% 3px" }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Zahir
+              Shakar Paul
             </motion.span>
           </motion.h1>
 
@@ -85,7 +85,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Full-Stack Developer
+            Full-Stack Developer & ML / Data Enthusiast
           </motion.p>
 
           <motion.p

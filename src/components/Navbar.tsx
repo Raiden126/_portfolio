@@ -70,7 +70,7 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center">
             <a href="/" onClick={onLogoClick}>
-              <span className="text-xl font-bold text-primary">AZ.</span>
+              <span className="text-xl font-bold text-primary">GS.</span>
             </a>
           </div>
 
@@ -94,7 +94,7 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
                 asChild
                 onClick={handledownload}
               >
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl} download="Guddu_Shakar_Paul_CV.pdf">
                   Resume
                 </a>
               </Button>
@@ -158,7 +158,7 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
               </a>
             ))}
             <Button size="sm" className="ml-3 mt-2" asChild>
-              <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+              <a href={resumeUrl} download="Guddu_Shakar_Paul_CV.pdf">
                 Resume
               </a>
             </Button>
