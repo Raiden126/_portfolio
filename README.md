@@ -1,7 +1,7 @@
-# Aathif Zahir – Full Stack Developer Portfolio
+# Guddu Shakar Paul – Software Developer Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Live%20Portfolio-blueviolet?style=for-the-badge&logo=vercel&logoColor=white)](https://aathifzahir.dev)
-[![GitHub Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aathifzahir/portfolio)
+[![Portfolio](https://img.shields.io/badge/Live%20Portfolio-blueviolet?style=for-the-badge&logo=vercel&logoColor=white)](https://guddupaul.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raiden126)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -14,7 +14,7 @@
 
 ## Overview
 
-Welcome to the personal portfolio of **Aathif Zahir**, a passionate Software Engineering undergraduate with a strong focus on **full-stack web development**. Currently interning as a **Full Stack Developer**, I bring hands-on experience in building modern web applications and a deep understanding of both frontend and backend technologies. This portfolio is a reflection of my journey, skills, projects, and achievements — built with a modern tech stack and polished UI/UX.
+Welcome to the personal portfolio of **Guddu Shakar Paul**, a passionate Software Developer and ML/Data Enthusiast. I specialize in full-stack development using the MERN stack, NestJS, Next.js, and integrating complex APIs (like Stripe, Xero, AWS). This portfolio is a reflection of my professional journey, encompassing backend architectural work, frontend performance optimizations, machine learning deployments, and my certifications. Built with a modern tech stack and polished UI/UX.
 
 ---
 
@@ -49,7 +49,7 @@ src/
 ├── components/       # Reusable UI components
 ├── pages/            # Page views (e.g., Home, 404)
 ├── hooks/            # Custom React hooks
-├── data/             # Static config/data (e.g., skills, links)
+├── data/             # Static config/data (e.g., skills, links, projects)
 ├── styles/           # Tailwind CSS config
 ├── App.tsx           # Root component
 ├── main.tsx          # App entry point
@@ -71,7 +71,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/AathifZahir/az-dev.git
+git clone https://github.com/Raiden126/portfolio.git
 cd portfolio
 
 # Install dependencies
@@ -81,7 +81,7 @@ npm install
 npm run dev
 ```
 
-Visit: `http://localhost:8080`
+Visit: `http://localhost:5173` (or the port Vite specifies)
 
 ### Production Build
 
@@ -92,13 +92,7 @@ npm run preview    # Serves the production build locally
 
 ## Deployment
 
-You can deploy this project on any modern static hosting service like **Vercel**, **Netlify**, or **GitHub Pages**.
-
-### Example: Vercel
-
-```bash
-vercel deploy --prod
-```
+You can easily deploy this project on modern static hosting services like **Vercel**, **Netlify**, or **GitHub Pages**. (See Vercel for the easiest 1-click Vite deployment).
 
 ---
 
@@ -106,10 +100,10 @@ vercel deploy --prod
 
 I’m open to collaborations, opportunities, or just a chat!
 
-- 📧 [aathif@example.com](mailto:aathifzahir12@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/aathifzahir)
-- 💻 [GitHub](https://github.com/aathifzahir)
+- 📧 [guddupaul145@gmail.com](mailto:guddupaul145@gmail.com)
+- 💼 [LinkedIn](https://linkedin.com/in/guddu-shakar-paul)
+- 💻 [GitHub](https://github.com/Raiden126)
 
 ---
 
-> © 2025 Aathif Zahir. Built with ❤️ using React, TypeScript, and Tailwind CSS.
+> © 2026 Guddu Shakar Paul. Built with ❤️ using React, TypeScript, and Tailwind CSS.
