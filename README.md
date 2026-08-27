@@ -10,8 +10,6 @@
 
 ---
 
-![Portfolio Screenshot](./public/screenshot.png)
-
 ## Overview
 
 Welcome to the personal portfolio of **Guddu Shakar Paul**, a passionate Software Developer and ML/Data Enthusiast. I specialize in full-stack development using the MERN stack, NestJS, Next.js, and integrating complex APIs (like Stripe, Xero, AWS). This portfolio is a reflection of my professional journey, encompassing backend architectural work, frontend performance optimizations, machine learning deployments, and my certifications. Built with a modern tech stack and polished UI/UX.
